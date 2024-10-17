@@ -84,3 +84,27 @@
 .form span{
     color: red;
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+      .container{
+        /* display: flex;
+        flex-direction: column; */
+      }
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    body {
+      .container{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
